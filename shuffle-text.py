@@ -1,3 +1,9 @@
+#MenuTitle: Shuffle Text
+# -*- coding: utf-8 -*-
+__doc__="""
+Shuffle the preview text.
+"""
+
 import random
 
 tab = Glyphs.font.currentTab
