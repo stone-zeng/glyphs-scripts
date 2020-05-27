@@ -1,4 +1,4 @@
-#MenuTitle: Cut cap
+#MenuTitle: Cut Cap
 # -*- coding: utf-8 -*-
 __doc__="""
 Cut the terminal of strokes with a `_cap.cup` glyph.
