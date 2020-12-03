@@ -1,4 +1,4 @@
-#MenuTitle: Clear Layer
+#MenuTitle: Print nodes
 # -*- coding: utf-8 -*-
 __doc__="""
 Print nodes into Wolfram Language format.
