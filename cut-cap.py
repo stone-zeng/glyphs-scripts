@@ -4,7 +4,7 @@ __doc__="""
 Cut the terminal of strokes with a `_cap.cup` glyph.
 """
 
-from Foundation import *
+from Foundation import NSPoint
 
 CAP_SIZE = 100.0
 CAP_NAME = '_cap.cup'

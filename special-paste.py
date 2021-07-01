@@ -6,7 +6,7 @@ Paste copied paths and components into current layers.
 
 # See https://gist.github.com/schriftgestalt/6ef3dda00264486cb479
 
-from Foundation import *
+from Foundation import NSPasteboard, NSString, NSUTF8StringEncoding
 
 GSFormatVersion = 3
 
