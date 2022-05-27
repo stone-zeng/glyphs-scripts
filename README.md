@@ -32,6 +32,6 @@ Python scripts for use with the [Glyphs font editor](https://glyphsapp.com/).
 
 ## License
 
-Copyright (C) 2020 by Xiangdong Zeng.
+Copyright (C) 2020&ndash;2022 by Xiangdong Zeng.
 
 Licensed under the MIT License.

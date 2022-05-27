@@ -25,7 +25,7 @@ if typeName == "Glyphs elements pasteboard type":
             else:
                 shape = GSComponent.alloc().initWithDict_format_(shapeDict, GSFormatVersion)
             for layer in Glyphs.font.selectedLayers:
-                layer.shapes.append(shape)
+                layer.shapes.append(shape.copy())
     if "paths" in dictionary:
         elements = dictionary["paths"]
         for pathDict in elements:
@@ -34,7 +34,7 @@ if typeName == "Glyphs elements pasteboard type":
             else:
                 path = GSPath.alloc().initWithPathDict_(pathDict)
             for layer in Glyphs.font.selectedLayers:
-                    layer.paths.append(path)
+                    layer.paths.append(path.copy())
     if "components" in dictionary:
         elements = dictionary["components"]
         for componentDict in elements:
@@ -43,4 +43,4 @@ if typeName == "Glyphs elements pasteboard type":
             else:
                 component = GSComponent.alloc().initWithElementDict_(componentDict)
             for layer in Glyphs.font.selectedLayers:
-                    layer.components.append(component)
+                    layer.components.append(component.copy())
