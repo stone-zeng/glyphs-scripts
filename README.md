@@ -16,9 +16,12 @@ Python scripts for use with the [Glyphs font editor](https://glyphsapp.com/).
 ## About the scripts
 
 - `clear-layer.py`: Clear all paths and components in selected layers.
+- `compress-zhonggong.py`: Compress Zhonggong (中宫) for CJK characters.
 - `cut-cap.py`: Cut the terminal of strokes with a `_cap.cup` glyph.
+- `generate-samples.py`: Generate sample text of certain rules.
+- `my-scrambler.py`: Create a new tab with a random sequence of selected glyphs.
 - `print-nodes.py`: Print nodes into Wolfram Language format.
-- `rvs-circle-scaling.py`: Make the scaled circles round again (RVS).
+- `rvs-circle-scaling.py`: Make the scaled circles round again (for 基本美术体).
 - `shuffle-text`: Shuffle the preview text.
 - `special-paste.py`: Paste copied paths and components into current layers.
 
