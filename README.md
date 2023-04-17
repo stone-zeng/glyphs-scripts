@@ -15,15 +15,16 @@ Python scripts for use with the [Glyphs font editor](https://glyphsapp.com/).
 
 ## About the scripts
 
-- `clear-layer.py`: Clear all paths and components in selected layers.
-- `compress-zhonggong.py`: Compress Zhonggong (中宫) for CJK characters.
-- `cut-cap.py`: Cut the terminal of strokes with a `_cap.cup` glyph.
-- `generate-samples.py`: Generate sample text of certain rules.
-- `my-scrambler.py`: Create a new tab with a random sequence of selected glyphs.
-- `print-nodes.py`: Print nodes into Wolfram Language format.
-- `rvs-circle-scaling.py`: Make the scaled circles round again (for 基本美术体).
-- `shuffle-text`: Shuffle the preview text.
-- `special-paste.py`: Paste copied paths and components into current layers.
+- [`clear-layer.py`](clear-layer.py): Clear all paths and components in selected layers.
+- [`compress-zhonggong.py`](compress-zhonggong.py): Compress Zhonggong (中宫) for CJK characters.
+- [`cut-cap.py`](cut-cap.py): Cut the terminal of strokes with a `_cap.cup` glyph.
+- [`find-unused-smart-components.py`](find-unused-smart-components.py): Find Unused Smart Components.
+- [`generate-samples.py`](generate-samples.py): Generate sample text of certain rules.
+- [`my-scrambler.py`](my-scrambler.py): Create a new tab with a random sequence of selected glyphs.
+- [`print-nodes.py`](print-nodes.py): Print nodes into Wolfram Language format.
+- [`rvs-circle-scaling.py`](rvs-circle-scaling.py): Make the scaled circles round again (for [基本美术体](https://3type.cn/fonts/rvs_basic)).
+- [`shuffle-text`](shuffle-text): Shuffle the preview text.
+- [`special-paste.py`](special-paste.py): Paste copied paths and components into current layers.
 
 ## References
 
@@ -39,3 +40,7 @@ Python scripts for use with the [Glyphs font editor](https://glyphsapp.com/).
 Copyright (C) 2020&ndash;2023 by Xiangdong Zeng.
 
 Licensed under the MIT License.
+
+
+
+- [`remove-stroke-ends.py`](remove-stroke-ends.py): Remove stroke ends (i.e. 喇叭口).
