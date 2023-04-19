@@ -1,4 +1,4 @@
-#MenuTitle: Print nodes
+#MenuTitle: Print Nodes
 __doc__ = """
 Print nodes into Wolfram Language format.
 """

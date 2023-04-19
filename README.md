@@ -16,6 +16,7 @@ Python scripts for use with the [Glyphs font editor](https://glyphsapp.com/).
 ## About the scripts
 
 - [`clear-layer.py`](clear-layer.py): Clear all paths and components in selected layers.
+- [`close-all-tabs.py`](close-all-tabs.py): Close all tabs.
 - [`compress-zhonggong.py`](compress-zhonggong.py): Compress Zhonggong (中宫) for CJK characters.
 - [`cut-cap.py`](cut-cap.py): Cut the terminal of strokes with a `_cap.cup` glyph.
 - [`find-unused-smart-components.py`](find-unused-smart-components.py): Find Unused Smart Components.
