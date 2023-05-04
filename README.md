@@ -23,6 +23,7 @@ Python scripts for use with the [Glyphs font editor](https://glyphsapp.com/).
 - [`generate-samples.py`](generate-samples.py): Generate sample text of certain rules.
 - [`my-scrambler.py`](my-scrambler.py): Create a new tab with a random sequence of selected glyphs.
 - [`print-nodes.py`](print-nodes.py): Print nodes into Wolfram Language format.
+- [`remove-stroke-ends.py`](remove-stroke-ends.py): Remove stroke ends (i.e. 喇叭口).
 - [`rvs-circle-scaling.py`](rvs-circle-scaling.py): Make the scaled circles round again (for [基本美术体](https://3type.cn/fonts/rvs_basic)).
 - [`shuffle-text`](shuffle-text): Shuffle the preview text.
 - [`special-paste.py`](special-paste.py): Paste copied paths and components into current layers.
@@ -41,7 +42,3 @@ Python scripts for use with the [Glyphs font editor](https://glyphsapp.com/).
 Copyright (C) 2020&ndash;2023 by Xiangdong Zeng.
 
 Licensed under the MIT License.
-
-
-
-- [`remove-stroke-ends.py`](remove-stroke-ends.py): Remove stroke ends (i.e. 喇叭口).
