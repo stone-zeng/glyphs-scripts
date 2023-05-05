@@ -21,6 +21,7 @@ Python scripts for use with the [Glyphs font editor](https://glyphsapp.com/).
 - [`cut-cap.py`](cut-cap.py): Cut the terminal of strokes with a `_cap.cup` glyph.
 - [`find-unused-smart-components.py`](find-unused-smart-components.py): Find Unused Smart Components.
 - [`generate-samples.py`](generate-samples.py): Generate sample text of certain rules.
+- [`move-to-background.py`](move-to-background.py): Move certain smart components to Background.
 - [`my-scrambler.py`](my-scrambler.py): Create a new tab with a random sequence of selected glyphs.
 - [`print-nodes.py`](print-nodes.py): Print nodes into Wolfram Language format.
 - [`remove-stroke-ends.py`](remove-stroke-ends.py): Remove stroke ends (i.e. 喇叭口).

@@ -1,7 +1,5 @@
 #MenuTitle: Find Unused Smart Components
 
-from GlyphsApp import Font
-
 smartComponent = set()
 usedSmartComponent = set()
 

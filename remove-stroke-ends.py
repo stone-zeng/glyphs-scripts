@@ -4,7 +4,6 @@ Remove stroke ends (i.e. 喇叭口).
 """
 
 import math
-# from GlyphsApp import GSLayer, GSNode, Font, OFFCURVE, LINE
 
 
 def removeStrokeEnds(layer: GSLayer):
